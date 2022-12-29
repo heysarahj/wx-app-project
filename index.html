@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/magic.css" />
+    <title>Weather App</title>
+<body>
+  <div class="container-card">
+    <div class="weather-app">
+      <form class="search-form" id="search-for">
+        <div class="row">
+          <div class="col-6">
+            <input
+            type="search"
+            placeholder="Search city"
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm"
+             />
+        </div>
+        <div class="col-3">
+          <input 
+          type="submit"
+          value="Search"
+          class="form-control btn btn-primary"
+          />
+        </div>
+        <div class="col-3">
+          <button
+          class="btn btn-secondary w-100"
+          id="current-location-button">
+        Current
+        </button>
+        </div>
+      </form>
+      <div class="container">
+        <div class="row">
+         <div class="col-sm-6">
+          <h1 id="city">Miami</h1>
+          <ul> 
+            <li id="date">Date</li>
+            <li id="description">Description</li>
+          </ul>
+      </div>
+  
+    <div class="col-sm-3">
+          <h2 id="temperature">Temperature</h2>
+          <ul>
+            <li id="feels-like">Feels like: </li>
+            <li id="humidity">Humidity: </li>
+         
+            <li>Wind: <span id="WHEEE"></span> mph</li>
+          </ul>
+    
+  </div>
+    
+</body>
+</html>
