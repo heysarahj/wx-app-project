@@ -17,7 +17,7 @@
 <body>
   <div class="container-card">
     <div class="weather-app">
-      <form class="search-form" id="search-for">
+      <form class="search-form" id="search-form">
         <div class="row">
           <div class="col-6">
             <input
@@ -47,23 +47,27 @@
       <div class="container">
         <div class="row">
          <div class="col-sm-6">
-          <h1 id="city">London</h1>
+          <h1 id="#city">London</h1>
           <ul> 
-            <li id="date">Date</li>
-            <li id="description">Description</li>
+            <li><span id="update">Last updated:</span><span id="date">Tues. 21:19</span></li>
+            <li id="description">description</li>
           </ul>
       </div>
   
     <div class="col-sm-3">
-          <h2 id="temperature">Temperature</h2>
+          <h2 id="temperature">83°
+            <div class="units">C | F
+          </div>
+          </h2>
           <ul>
-            <li id="feels-like">Feels like: </li>
             <li id="humidity">Humidity: </li>
-         
-            <li>Wind: <span id="WHEEE"></span> mph</li>
+            <li>Wind: <span id="wind"></span> mph</li>
           </ul>
     
   </div>
-  <script src="script.js"></script>
+  <div class="col-3">
+    <p>Feels like:</p>
+  </div>
+  <script src="src/script.js"></script>
 </body>
 </html>

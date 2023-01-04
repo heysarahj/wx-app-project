@@ -2,7 +2,8 @@ h1 {
   font-size: 45px;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #b90707;
+  margin-left: -15px;
+  color: #353535;
   text-transform: uppercase;
 }
 
@@ -12,33 +13,58 @@ h2 {
   color: #353535;
 }
 
+p {
+  font-size: 14px;
+  margin-left: -38px;
+  margin-top: 5px;
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 li {
-  margin-left: -30px;
+  margin-left: -37px;
 }
 
-.date {
-  font-size: 18px;
+#update {
+  font-size: 14px;
   color: #161d64;
+  margin-left: -16px;
 }
 
-.unit {
-  font-size: 20px;
+#date {
+  font-size: 14px;
+  color: #161d64;
+  margin-left: 4px;
+}
+
+#description {
+  font-size: 14px;
+  color: #161d64;
+  margin-left: -52px;
+}
+
+.units {
+  font-size: 16px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #353535;
-  margin: 0 -15px 0 0;
+  padding: 1rem;
+  margin-top: -70px;
+  margin-left: 50px;
+
+  
 }
 
 .container-card {
   display: block;
-  background-color: rgb(177, 204, 221);
+  background-color: rgb(212, 221, 230);
   height: 400px;
   width: 700px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 1rem;
   border: 3px;
   border-radius: 1rem;
@@ -61,24 +87,10 @@ li {
   margin: -40px 80px 30px 0;
   padding-bottom: 40px;
   float: right;
-  background-color: rgb(48, 83, 122);
+  background-color: rgb(97, 115, 134);
 }
 
-.col-sm-3 {
-  background-color: rgb(31, 163, 207);
-}
 
-.col-sm-4 {
-  background-color: rgb(249, 150, 139);
-}
-
-.col-sm-6 {
-  background-color: pink;
-}
-
-.col-sm-8 {
-  background-color: rgb(35, 187, 221);
-}
 .row {
   margin: 40px 0;
 }
