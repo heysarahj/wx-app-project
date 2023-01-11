@@ -55,9 +55,13 @@ li {
   padding: 1rem;
   margin-top: -70px;
   margin-left: 50px;
-
-  
 }
+
+#icon {
+  margin-top: -21px;
+  margin-left: -50px;
+}  
+
 
 .container-card {
   display: block;
