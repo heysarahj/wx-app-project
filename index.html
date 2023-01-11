@@ -18,7 +18,7 @@
   <div class="container-card">
     <div class="weather-app">
      
-      <form class="search-form" id="search-form">
+      <form class="search-form" form id="search-form">
         <div class="row">
           <div class="col-6">
             <input
@@ -29,30 +29,26 @@
             id="city-input"
             class="form-control shadow-sm"
              />
-        </div>
+          </div>
         <div class="col-3">
-         
           <input 
           type="submit"
           value="Search"
           class="form-control btn btn-primary"
           />
         </div>
-        <div class="col-3">
-          <button
-          class="btn btn-secondary w-100"
-          id="current-location-button">
-        Current
-        </button>
-        </div>
+      </form>
+
+    
+
       </form>
       <div class="container">
         <div class="row">
          <div class="col-sm-6">
-          <h1 id="city"></h1>
+          <h1 id="city">New York</h1>
           <ul> 
             <li><span id="date">Tues. 21:19</span></li>
-            <li id="description">description</li>
+            <li id="description.value">description</li>
           </ul>
           
       </div>
@@ -69,7 +65,7 @@
     
   </div>
   <div class="col-3">
-    <img src="" alt="Clear" id="icon"/>
+    <img src="https://openweathermap.org/img/wn/04d.png" alt="Clear" id="icon"/>
   </div>
   <script src="src/script.js"></script>
 </body>
